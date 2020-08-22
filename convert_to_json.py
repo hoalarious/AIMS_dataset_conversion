@@ -38,11 +38,11 @@ parser.add_argument(
 )
 
 parser.add_argument(
-    "--min_ann", type=int, help="Number of minimum annotations an image must have before being added to the new dataset", default=default_min_ann
+    "--min_ann", type=int, help="Minimum annotations an image must have before being added to the new dataset", default=default_min_ann
 )
 
 parser.add_argument(
-    "--frame_meta_csv_path", type=str, help="Percentage to use for testing", default="frame_metadata.csv"
+    "--frame_meta_csv_path", type=str, help="Path to frame metadata csv", default="frame_metadata.csv"
 )
 
 parser.add_argument("--single_class", action="store_true", help="Use only single class", default=default_single_class)
