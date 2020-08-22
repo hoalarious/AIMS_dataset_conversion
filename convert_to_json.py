@@ -20,7 +20,7 @@ default_min_ann = 4
 default_frame_meta_csv_path = 'frame_metadata.csv'
 
 default_single_class = False
-default_middle = False
+default_middle = True
 #####################################
 
 parser = argparse.ArgumentParser(description="AIMS to dataset json")

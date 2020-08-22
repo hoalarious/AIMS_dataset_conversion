@@ -5,7 +5,7 @@ import argparse
 from pathlib import Path
 
 # Default command line
-# python convert_to_json.py json_path "output/middle_1324_C127_test_set.json" --dataset_root "frames" --destination_root "curated_dataset" --max_files 60
+# python copy_json_images_to_folder.py --json_path "output/middle_1324_C127_test_set.json" --dataset_root "frames" --destination_root "curated_dataset" --max_files 60
 
 ###########DEFAULT_CONFIGS###########
 default_json_path = "output/middle_1324_C127_test_set.json"
