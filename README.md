@@ -18,7 +18,7 @@ Option | Description | Example | Default
 --single_class | Group all species as 1 class. Useful when counting only. |--single_class | False
 --middle | Convert to middle format. Setting false will leave the json in Detectron2 format |--middle | True
 
-2. Download images in JSON
+2. Download images in JSON. tqdm is required. Run "pip install tqdm".
 ```
 python download_dataset_from_json.py --json_path "output/middle_1324_C127_test_set.json" --base_url "https://data.pawsey.org.au/download/FDFML/frames/" --download_path "frames"
 ```
